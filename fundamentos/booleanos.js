@@ -34,3 +34,5 @@ console.log(!!('' || null || 0 ||' ')) //Contexto de operações logicas
 let nome = 'Lucas'
 
 console.log(nome || 'Desconhecido') 
+
+console.log(teste)
