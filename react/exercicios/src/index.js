@@ -1,10 +1,13 @@
 import React from 'react'
 import  ReactDOM  from 'react-dom'
 
-const elemento = <h1>React 2</h1> // Mesmo que paressa um HTML, isto é JAVASCRIPT, mais só se tornara um JavaScript quando houver o Transpile
+import Primeiro from './componentes/Primeiro'
+
+//const elemento = <h1>React 2</h1> // Mesmo que paressa um HTML, isto é JAVASCRIPT, mais só se tornara um JavaScript quando houver o Transpile
 
 // Chama o primeiro elemento dentro da nossa pagina
-ReactDOM.render(elemento, document.getElementById('root')) // JSX 
+ReactDOM.render(<Primeiro />, document.getElementById('root')) // JSX 
+
  // O foto de colocar um elemento dentro de uma de um metodo, é o JSX - é uma extensão que faz que você programe de uma forma mais parecida com se fosse um HTML, mas na verdade, por baixo dos panos ele vai fazer varias chamadas JavaScript para criar os elementos
 
 // Transpile - Conversão do HTML para um código JavaScript puro
@@ -24,3 +27,6 @@ ReactDOM.render(elemento, document.getElementById('root')) // JSX
 // O react tem que se importado, pois no momento que os elementos parecidos com HTML forem convertido para funções internas as dependencias do REACT vai ser usadas. 
 
 // Biblioteca REACT - Sendo usado de forma pura. 
+
+
+
